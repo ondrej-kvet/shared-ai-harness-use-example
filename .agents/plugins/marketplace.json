@@ -1,0 +1,21 @@
+{
+  "name": "repo-marketplace",
+  "interface": {
+    "displayName": "Repository Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ondrej-kvet/shared-ai-harness-example.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
