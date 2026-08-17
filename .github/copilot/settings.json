@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "shared-ai-harness-example": {
+      "source": {
+        "source": "github",
+        "repo": "ondrej-kvet/shared-ai-harness-example"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "example-plugin@shared-ai-harness-example": true
+  }
+}

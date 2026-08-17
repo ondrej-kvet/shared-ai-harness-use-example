@@ -1,0 +1,14 @@
+{
+  "enabledPlugins": {
+    "claude-plugin-example@shared-ai-harness-example": true
+  },
+  "extraKnownMarketplaces": {
+    "shared-ai-harness-example": {
+      "source": {
+        "source": "github",
+        "repo": "ondrej-kvet/shared-ai-harness-example"
+      },
+      "autoUpdate": true
+    }
+  }
+}
